@@ -985,9 +985,9 @@ input[type="checkbox"] {
 .bgrid-sixths [class*="column"] {
     width: 16.66667%;
 }
-.bgrid-quarters [class*="column"] {
+/* .bgrid-quarters [class*="column"] {
     width: 25%;
-}
+} */
 .bgrid-thirds [class*="column"] {
     width: 33.33333%;
 }
