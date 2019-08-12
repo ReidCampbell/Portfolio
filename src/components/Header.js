@@ -84,6 +84,14 @@ export default class Header extends Component {
                                         );
                                     })}
                             </ul>
+                            <button className="btn-download">
+                                <a
+                                    href="public/ReidScottCampbell Resume.pdf"
+                                    download
+                                >
+                                    Download Resume
+                                </a>
+                            </button>
                         </div>
                     </div>
 
