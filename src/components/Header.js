@@ -86,7 +86,7 @@ export default class Header extends Component {
                             </ul>
                             <button className="btn-download">
                                 <a
-                                    href="public/ReidScottCampbell Resume.pdf"
+                                    href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ReidCampbell/Portfolio/blob/master/public/ReidScottCampbell%20Resume.pdf"
                                     download
                                 >
                                     Download Resume
