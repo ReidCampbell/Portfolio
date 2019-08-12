@@ -146,10 +146,12 @@ header .btn-download a {
 
 header .btn-download:hover {
     border: 2px solid #11abb0;
+    box-shadow: 1px 2px 4px #4d4c4c;
 }
 
 header .btn-download:hover a {
     color: #11abb0;
+    text-shadow: 1px 2px 4px #4d4c4c;
 }
 
 /* primary navigation
