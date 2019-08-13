@@ -4,7 +4,7 @@ let resumeData = {
     linkedinId: "ReidScottCampbell",
     logo: "images/logo.png",
     roleDescription:
-        " I like dabbling in various parts of frontend development and like to learn about new technologies.",
+        " I like dabbling in various parts of web development and like to explore new technologies.",
     socialLinks: [
         {
             name: "linkedin",
