@@ -84,14 +84,15 @@ export default class Header extends Component {
                                         );
                                     })}
                             </ul>
-                            <button className="btn-download">
-                                <a
-                                    href="https://github.com/ReidCampbell/Portfolio/raw/master/public/ReidScottCampbell%20Resume.pdf"
-                                    download
-                                >
+
+                            <a
+                                href="https://github.com/ReidCampbell/Portfolio/raw/master/public/ReidScottCampbell%20Resume.pdf"
+                                download
+                            >
+                                <button className="btn-download">
                                     Download Resume
-                                </a>
-                            </button>
+                                </button>
+                            </a>
                         </div>
                     </div>
 

@@ -465,7 +465,32 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap img {
     vertical-align: bottom;
+    width: 500px;
 }
+
+.portfolio-item a {
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.portfolio-links h2 {
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: -10px;
+}
+
+.portfolio-item .link-btn {
+    background-color: Transparent;
+    color: black;
+    border-bottom: 3px solid #11abb0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 0;
+    width: 60px;
+}
+
 .portfolio-item .portfolio-item-meta {
     padding: 18px;
 }
@@ -480,18 +505,18 @@ ul#nav li.current a {
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.item-wrap:hover .overlay {
     opacity: 1;
     -moz-opacity: 1;
     filter: alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+/* .portfolio-item:hover .link-icon {
     opacity: 1;
     -moz-opacity: 1;
     filter: alpha(opacity=100);
-}
+} */
 
-/* popup modal */
+/* popup modal
 .popup-modal {
     max-width: 550px;
     background: #fff;
@@ -539,13 +564,13 @@ ul#nav li.current a {
 }
 .popup-modal a.popup-modal-dismiss {
     margin-left: 24px;
-}
+} */
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
-
+/* 
 /* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap .mfp-content .popup-modal {
     opacity: 0;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -554,13 +579,13 @@ ul#nav li.current a {
     transition: all 200ms ease-in-out;
 }
 /* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-    opacity: 1;
-}
+/* .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal { */
+/* opacity: 1; */
+/* } */
 /* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
     opacity: 0;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section

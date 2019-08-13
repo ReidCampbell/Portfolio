@@ -95,7 +95,9 @@ let resumeData = {
         {
             name: "brunchee.",
             description: "Web App",
-            imgurl: "images/portfolio/brunchee.gif"
+            imgurl: "images/portfolio/brunchee2.gif",
+            link: "http://www.brunchee.rocks",
+            github: "https://github.com/ReidCampbell/brunchee"
         }
         // {
         //     name: "project2",
