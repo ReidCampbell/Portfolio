@@ -157,7 +157,7 @@ header .btn-download:hover a {
 
 header .logo {
     position: absolute;
-    left: 100px;
+    left: 50px;
     top: 4px;
     max-height: 70px;
     z-index: -1;
