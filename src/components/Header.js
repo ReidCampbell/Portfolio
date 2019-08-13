@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typist from "react-typist";
 export default class Header extends Component {
     render() {
         let resumeData = this.props.resumeData;
@@ -52,7 +53,17 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">
-                                I am {resumeData.name}.
+                                <Typist
+                                    className="MyTypist"
+                                    avgTypingDelay={55}
+                                    startDelay={500}
+                                    cursor={{
+                                        hideWhenDone: true,
+                                        hideWhenDoneDelay: 10
+                                    }}
+                                >
+                                    {[`I am ${resumeData.name}.`]}
+                                </Typist>
                             </h1>
                             <h3
                                 style={{
@@ -60,8 +71,20 @@ export default class Header extends Component {
                                     fontFamily: "sans-serif "
                                 }}
                             >
-                                I am a {resumeData.role}.
-                                {resumeData.roleDescription}
+                                <Typist
+                                    className="MyTypist"
+                                    avgTypingDelay={25}
+                                    startDelay={2000}
+                                    cursor={{
+                                        hideWhenDone: true,
+                                        hideWhenDoneDelay: 0
+                                    }}
+                                >
+                                    {[
+                                        `I am a ${resumeData.role}.
+                                    ${resumeData.roleDescription}`
+                                    ]}
+                                </Typist>
                             </h3>
                             <hr />
                             <ul className="social">
