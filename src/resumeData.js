@@ -1,8 +1,8 @@
 let resumeData = {
-    imagebaseurl: "https://rbhatia46.github.io/",
     name: "Reid Campbell",
     role: "Full Stack Web Developer",
     linkedinId: "ReidScottCampbell",
+    logo: "images/logo.png",
     roleDescription:
         " I like dabbling in various parts of frontend development and like to learn about new technologies.",
     socialLinks: [
@@ -63,7 +63,7 @@ let resumeData = {
             logo: "devicon-css3-plain-wordmark colored"
         },
         {
-            skillname: "Javascript",
+            skillname: "ES6",
             logo: "devicon-javascript-plain colored"
         },
         {
@@ -83,7 +83,7 @@ let resumeData = {
             logo: "devicon-mysql-plain-wordmark colored"
         },
         {
-            skillname: "Adobe Creative Studio",
+            skillname: "Adobe Creative Suite",
             logo: "devicon-photoshop-line colored"
         },
         {
@@ -95,7 +95,7 @@ let resumeData = {
         {
             name: "brunchee.",
             description: "Web App",
-            imgurl: "images/portfolio/brunchee2.gif",
+            imgurl: "images/portfolio/brunchee.gif",
             link: "http://www.brunchee.rocks",
             github: "https://github.com/ReidCampbell/brunchee"
         }

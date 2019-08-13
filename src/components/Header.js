@@ -7,6 +7,11 @@ export default class Header extends Component {
             <React.Fragment>
                 <header id="home">
                     <nav id="nav-wrap">
+                        <img
+                            className="logo"
+                            alt=""
+                            src={`${resumeData.logo}`}
+                        />
                         <a
                             className="mobile-btn"
                             href="#nav-wrap"
