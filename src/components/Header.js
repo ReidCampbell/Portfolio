@@ -79,7 +79,7 @@ export default class Header extends Component {
                                 <Typist
                                     className="MyTypist"
                                     avgTypingDelay={25}
-                                    startDelay={2000}
+                                    startDelay={2400}
                                     cursor={{
                                         hideWhenDone: true,
                                         hideWhenDoneDelay: 0
