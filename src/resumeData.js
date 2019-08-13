@@ -17,7 +17,7 @@ let resumeData = {
             className: "fa fa-github"
         }
     ],
-    aboutme: "",
+    aboutme: "I earned my Bachelor's degree in Marketing, Advertising and Branding from the University of Gloucestershire in 2017 and worked in Sales and Digital Marketing Performance positions since then. I've always been passionate about storytelling, photography, and branding, so right after I finished University, I started my own media production company, Beehive Basement Media. In 2019, after quite some time considering it, I finally took the time to learn to code and completed the Web Development Bootcamp at Le Wagon London. Today my goal is joining an ambitious team and building products people love. I'm eager to know more about new opportunities, feel free to reach out to me.",
     address: "London",
     email: "reidscottcampbell@gmail.com",
     education: [
