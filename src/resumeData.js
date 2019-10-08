@@ -94,18 +94,18 @@ let resumeData = {
     ],
     portfolio: [
         {
-            name: "brunchee.",
-            description: "Web App created with Ruby-on-Rails",
-            imgurl: "images/portfolio/brunchee.gif",
-            link: "http://www.brunchee.rocks",
-            github: "https://github.com/ReidCampbell/brunchee"
-        },
-        {
             name: "Gatsby Tours",
             description: "Travel website created with GatsbyJS and Graphql",
             imgurl: "images/portfolio/gatsby-tours.png",
             link: "https://gatsbytours.netlify.com/",
             github: "https://github.com/ReidCampbell/Gatsby-Tours"
+        },
+        {
+            name: "brunchee.",
+            description: "Web App created with Ruby-on-Rails",
+            imgurl: "images/portfolio/brunchee.gif",
+            link: "http://www.brunchee.rocks",
+            github: "https://github.com/ReidCampbell/brunchee"
         }
         // {
         //     name: "project2",
