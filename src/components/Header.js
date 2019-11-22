@@ -118,7 +118,7 @@ export default class Header extends Component {
                                 download
                             >
                                 <button className="btn-download">
-                                    Download Resume
+                                    Download CV
                                 </button>
                             </a>
                         </div>
