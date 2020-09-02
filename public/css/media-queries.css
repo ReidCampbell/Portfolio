@@ -42,6 +42,7 @@
         width: 114px;
         height: 114px;
         margin-left: 12px;
+        object-fit: cover;
     }
     #about .contact-details {
         width: 50%;

@@ -114,7 +114,7 @@ export default class Header extends Component {
                             </ul>
 
                             <a
-                                href="https://github.com/ReidCampbell/Portfolio/raw/master/public/ReidScottCampbell%20Resume.pdf"
+                                href="https://github.com/ReidCampbell/Portfolio/raw/master/public/ReidCampbell%20Resume.pdf"
                                 download
                             >
                                 <button className="btn-download">

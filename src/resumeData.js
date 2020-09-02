@@ -39,8 +39,28 @@ let resumeData = {
     ],
     work: [
         {
+            CompanyName: "Le Wagon",
+            specialization: "Teacher / Teaching Assistant",
+            MonthOfStarting: "August",
+            YearOfStarting: "2020",
+            MonthOfLeaving: "Present",
+            YearOfLeaving: "",
+            Achievements: "Some Achievements"
+        },
+        {
+            CompanyName: "Adludio",
+            specialization: "Full Stack Developer",
+            MonthOfStarting: "November",
+            YearOfStarting: "2019",
+            MonthOfLeaving: "September",
+            YearOfLeaving: "2020",
+            Achievements: "Some Achievements"
+        },
+        {
             CompanyName: "OMD",
             specialization: "Biddable Performance Executive",
+            MonthOfStarting: "August",
+            YearOfStarting: "2018",
             MonthOfLeaving: "April",
             YearOfLeaving: "2019",
             Achievements: "Some Achievements"
@@ -48,6 +68,8 @@ let resumeData = {
         {
             CompanyName: "JCDecaux",
             specialization: "Strategic Solutions Sales Coordinator",
+            MonthOfStarting: "March",
+            YearOfStarting: "2018",
             MonthOfLeaving: "August",
             YearOfLeaving: "2018",
             Achievements: "Some Achievements"
@@ -68,12 +90,20 @@ let resumeData = {
             logo: "devicon-javascript-plain colored"
         },
         {
-            skillname: "Ruby",
-            logo: "devicon-ruby-plain-wordmark colored"
+            skillname: "TypeScript",
+            logo: "devicon-typescript-plain colored"
         },
         {
             skillname: "ReactJS",
             logo: "devicon-react-original-wordmark colored"
+        },
+        {
+            skillname: "Redux",
+            logo: "devicon-redux- colored"
+        },
+        {
+            skillname: "Ruby",
+            logo: "devicon-ruby-plain-wordmark colored"
         },
         {
             skillname: "Rails",
