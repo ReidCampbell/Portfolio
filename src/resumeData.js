@@ -134,7 +134,7 @@ let resumeData = {
             name: "brunchee.",
             description: "Web App created with Ruby-on-Rails",
             imgurl: "images/portfolio/brunchee.gif",
-            link: "http://www.brunchee.rocks",
+            link: "https://brunchee.herokuapp.com",
             github: "https://github.com/ReidCampbell/brunchee"
         }
         // {
