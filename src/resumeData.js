@@ -3,8 +3,7 @@ let resumeData = {
   role: 'Full Stack Web Developer',
   linkedinId: 'ReidScottCampbell',
   logo: 'images/logo.png',
-  roleDescription:
-    ' I like dabbling in various parts of web development and like to explore new technologies.',
+  roleDescription: '',
   socialLinks: [
     {
       name: 'linkedin',
