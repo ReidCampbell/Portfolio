@@ -127,7 +127,7 @@ let resumeData = {
       description:
         'Reddit clone created with React, Node, Typescript, Graphql with Apollo, and Postgres',
       imgurl: 'images/portfolio/reiddit.png',
-      link: 'https://reiddit.reidcampbell.xyz/',
+      link: 'https://reiddit.reid.camp/',
       github: 'https://github.com/ReidCampbell/Reiddit-Client',
     },
     {
